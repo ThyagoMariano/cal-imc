@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/src/css/responsive.css" />
+  </head>
+  <body>
+    <div id="fundo">
+      <div id="caixa">
+        <div id="title">
+          <div class="container">
+            <h1>Calculadora - IMC</h1>
+          </div>
+        </div>
+        <div id="content">
+          <div class="container">
+            <div class="form">
+              <label for="fnome">Nome:</label>
+              <input
+                type="text"
+                name="fnome"
+                maxlength="40"
+                id="fnome"
+                placeholder="Nome"
+              />
+              <br /><br />
+              <label for="faltura">Altura:</label>
+              <input
+                type="text"
+                name="faltura"
+                id="faltura"
+                placeholder="170"
+                max="999"
+                maxlength="3"
+              /><br /><br />
+              <label for="fpeso">Peso:</label>
+              <input
+                type="text"
+                name="fpeso"
+                id="fpeso"
+                placeholder="70.5"
+                max="999.9"
+                maxlength="5"
+              /><br /><br />
+              <button id="calcular" onclick="imc()">Calcular</button>
+            </div>
+          </div>
+        </div>
+        <div id="mostra">
+          <div class="container">
+            <div id="resultado">Olá visitante, Vamos calcular seu IMC.</div>
+          </div>
+        </div>
+        <div class="corp">
+          <p>Feito por Thyago Mariano</p>
+          <a
+            href="http://github.com/ThyagoMariano"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/src/image/github.png" alt="icone github" width="15" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="/src/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+ @media screen and (max-height:560px) {
+   #caixa {
+     height: 500px;
+   }
+
+   #caixa #mostra .container #resultado {
+     height: 100px;
+   }
+
+   #content {
+     margin: 45px;
+   }
+ }
+
+ @media screen and (max-width:370px) {
+   #caixa {
+     width: 310px;
+   }
+
+   #caixa #content {
+     display: flex;
+     justify-content: center;
+     margin: 30px;
+   }
+
+
+ }
